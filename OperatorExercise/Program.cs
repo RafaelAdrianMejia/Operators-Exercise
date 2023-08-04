@@ -17,16 +17,9 @@
 
             Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}");
 
-            //PrintAreaOfCircle();
-
-            // var is implicit type inferrence (more on this later)
-            var i = 3;
-            var j = 4;
-            var k = ++i * j++;
-
-            Console.WriteLine(k); // ouputs ?
+            PrintAreaOfCircle();
         }
-
+        
         public static double AreaOfCircle(double radius)
         {
             return Math.PI * radius * radius;
